@@ -55,6 +55,17 @@ h1 {
   border-bottom: 2px solid var(--border-color);
 }
 
+img,
+.truck-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+  margin-top: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
 p {
   font-size: 1.05rem;
   color: var(--text-muted);
